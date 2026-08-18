@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "IITM Paste Enabler",
+  "version": "1.1.0",
+  "description": "Restores Ctrl+V paste in Ace editors on seek.study.iitm.ac.in.",
+  "permissions": ["storage", "scripting", "clipboardRead"],
+  "host_permissions": ["https://seek.study.iitm.ac.in/*"],
+  "action": {
+    "default_title": "IITM Paste Enabler",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://seek.study.iitm.ac.in/*"],
+      "js": ["paste.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}
