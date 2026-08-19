@@ -196,8 +196,8 @@ It is **not intended to be a universal paste-unblocking extension** for arbitrar
 Clone the repository and open the project directory:
 
 ```bash
-git clone <repository-url>
-cd iitm-paste-enabler-v2
+git clone https://github.com/roonakyadav/iitm-paste-enabler
+cd iitm-paste-enabler
 ```
 
 There is no build system required for the current version.
