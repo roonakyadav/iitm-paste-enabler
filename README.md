@@ -83,7 +83,7 @@ edge://extensions
 5. Select the project directory:
 
 ```text
-iitm-paste-enabler-v2/
+iitm-paste-enabler/
 ```
 
 6. The extension should now appear in your extensions list.
@@ -91,7 +91,7 @@ iitm-paste-enabler-v2/
 7. Open:
 
 ```text
-https://seek.study.iitm.ac.in/
+https://ds.study.iitm.ac.in/student_dashboard/
 ```
 
 8. Refresh the page after installing the extension.
