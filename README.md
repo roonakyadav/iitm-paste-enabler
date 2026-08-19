@@ -120,7 +120,7 @@ The extension can be enabled or disabled from its toolbar popup.
 ## Project Structure
 
 ```text
-iitm-paste-enabler-v2/
+iitm-paste-enabler/
 │
 ├── logo.png
 ├── manifest.json
@@ -159,7 +159,7 @@ The extension is intentionally restricted to the IITM study website.
 Its main host permission is:
 
 ```text
-https://seek.study.iitm.ac.in/*
+https://ds.study.iitm.ac.in/student_dashboard/
 ```
 
 This prevents the content script from unnecessarily running on unrelated websites.
