@@ -5,7 +5,7 @@ A lightweight Chrome/Chromium extension that restores normal **Ctrl+V pasting** 
 Built specifically for:
 
 ```text
-https://seek.study.iitm.ac.in/
+https://ds.study.iitm.ac.in/student_dashboard/
 ```
 
 The extension is designed for local use and works entirely in the browser without requiring an external server or API.
